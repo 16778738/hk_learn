@@ -15,7 +15,7 @@ Cobalt Strike集成了端口转发、扫描多模式端口Listener、Windows exe
 ## 开启服务器
 
 ```cmd
-./teamserver your_ip your_passowrd [config_file]
+teamserver your_ip your_passowrd [config_file]
 ```
 
 **创建监听器**
