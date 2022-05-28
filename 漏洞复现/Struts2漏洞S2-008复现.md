@@ -1,3 +1,17 @@
+~~~~
+title: 漏洞复现学习（s2-008）
+tags: 
+  - 渗透测试
+  - 漏洞复现
+  - struts2
+categories: 
+  - 渗透测试
+  - 漏洞复现
+  - struts2
+~~~~
+
+
+
 # Struts2漏洞S2-008复现
 
 ~~~~text

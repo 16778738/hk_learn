@@ -1,3 +1,19 @@
+~~~~~
+title: 漏洞复现学习(ActiveMQ)
+tags: 
+  - 渗透测试
+  - 漏洞复现
+  - ActiveMQ
+  -	(CVE-2016-3088)
+categories: 
+  - 渗透测试
+  - ActiveMQ
+  - 漏洞复现
+  - (CVE-2016-3088)
+~~~~~
+
+
+
 # ActiveMQ任意文件写入漏洞 (CVE-2016-3088)学习
 
 ## 漏洞描述

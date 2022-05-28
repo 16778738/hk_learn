@@ -1,3 +1,17 @@
+~~~~
+title: sqlmap学习笔记
+tags: 
+  - 渗透测试
+  - sqlmap
+  - 漏洞分析
+categories: 
+  - 渗透测试
+  - 漏洞分析
+  - sqlmap
+~~~~
+
+
+
 # Sqlmap学习笔记
 
 ## sqlmap介绍
